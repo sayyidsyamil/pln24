@@ -1,13 +1,10 @@
 "use client"
-import { CarouselDemo } from "@/components/CarouselDemo";
 import { FAQ } from "@/components/FAQ";
 import { SpotlightPreview } from "@/components/SpotlightPreview";
-import { Timeline } from "@/components/timeline";
 import Image from "next/image";
 import React, { useRef } from 'react';
 import NextJsCarousel from "@/components/NextJsCarousel";
 import Rules from "@/components/ui/rules";
-import { NavBar } from "@/components/nav-bar";
 
 
 //flex min-h-screen flex-col items-center justify-between p-24
@@ -28,7 +25,7 @@ export default function Home() {
       </div>
       <div id="overview" className="section h-auto min-h-screen bg-black box-border pt-12">
         <h1 className="text-3xl font-bold underline text-center">Timeline</h1>
-        <Image src={"/timeline.jpg"} alt="Timeline" width={1800} height={50}/>
+        <Image src={"/timeline.png"} alt="Timeline" width={1800} height={50}/>
         {/* <Timeline /> */}
         <br/>
         <h1 className="text-3xl font-bold underline text-center">Sponsorships</h1>

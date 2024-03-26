@@ -1,11 +1,10 @@
 "use client";
-import { useRef } from 'react';
 import Link from "next/link";
 
 export function NavBar() {
-  const handleNavLinkClick = (e) => {
+  const handleNavLinkClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
-    const targetId = e.currentTarget.getAttribute("href").slice(1); // Remove '#' from href
+    const targetId = e.currentTarget.getAttribute("href")?.slice(1) || "";
     const targetElement = document.getElementById(targetId);
 
     if (targetElement) {

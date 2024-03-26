@@ -1,20 +1,21 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import Image from 'next/image';
 
 const NextJsCarousel = () => {
   return (
-    <div className='flex justify-center items-center text-center' >
-      <Carousel className='w-[100%] md:w-[70%] overflow-clip'>
+    <div className='flex justify-center items-center text-center'>
+      <Carousel className='max-w-screen-lg w-full overflow-hidden'>
 
         <div className="aspect-video bg-black">
-          <img src="/announcement2.png" alt="image1" className="w-full h-full object-contain" />
+          <Image src="/announcement2.png" alt="image1" width={1980} height={1080} className="w-full h-full object-contain" />
         </div>
         <div className="aspect-video bg-black">
-          <img src="/announcement3.png" alt="image3" className="w-full h-full object-contain" />
+          <Image src="/announcement3.png" alt="image3" width={1980} height={1080} className="w-full h-full object-contain" />
         </div>
         <div className="aspect-video bg-black">
-          <img src="/announcement4.png" alt="image4" className="w-full h-full object-contain" />
+          <Image src="/announcement4.png" alt="image4" width={1980} height={1080} className="w-full h-full object-contain" />
         </div>
       </Carousel >
     </div >
