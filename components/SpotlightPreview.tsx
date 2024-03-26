@@ -4,6 +4,7 @@ import { FaInstagram, FaLinkedin, FaTiktok } from "react-icons/fa";
 import { Spotlight } from "./ui/Spotlight";
 import { NavBar } from "./nav-bar";
 import { cn } from "@/utils/cn";
+//hi
 
 export function SpotlightPreview() {
   const eventDate = new Date('2024-05-10T23:59:59'); // Replace with your event date
