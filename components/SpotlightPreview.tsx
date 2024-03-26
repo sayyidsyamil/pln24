@@ -49,7 +49,7 @@ export function SpotlightPreview() {
             {seconds > 0 && `${seconds} second${seconds > 1 ? 's' : ''} `}
           </div>
         ) : (
-          <h1 className="text-l">It's the day! </h1>
+          <h1 className="text-l">It is the day! </h1>
         )}
         <div className="flex flex-col items-center justify-center md:flex-row">
           <div className="flex flex-wrap justify-center sm:justify-start">
