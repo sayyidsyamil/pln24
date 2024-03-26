@@ -18,7 +18,7 @@ export function FAQ() {
         <AccordionTrigger>Is it styled?</AccordionTrigger>
         <AccordionContent>
           Yes. It comes with default styles that matches the other
-          components' aesthetic.
+          components aesthetic.
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-3">
