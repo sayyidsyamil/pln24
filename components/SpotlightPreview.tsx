@@ -4,6 +4,7 @@ import { FaInstagram, FaLinkedin, FaTiktok } from "react-icons/fa";
 import { Spotlight } from "./ui/Spotlight";
 import { NavBar } from "./nav-bar";
 import { cn } from "@/utils/cn";
+import Link from "next/link";
 //hi
 
 export function SpotlightPreview() {
@@ -43,43 +44,51 @@ export function SpotlightPreview() {
         </p>
         <br />
         {timeLeft > 0 ? (
-          <div className="text-l">
+          <div className="text-l text-center">
             {days > 0 && `${days} day${days > 1 ? 's' : ''} `}
             {hours > 0 && `${hours} hour${hours > 1 ? 's' : ''} `}
             {minutes > 0 && `${minutes} minute${minutes > 1 ? 's' : ''} `}
             {seconds > 0 && `${seconds} second${seconds > 1 ? 's' : ''} `}
           </div>
         ) : (
-          <h1 className="text-l">It is the day! </h1>
+          <h1 className="text-l text-center">It is the day! </h1>
         )}
         <div className="flex flex-col items-center justify-center md:flex-row">
           <div className="flex flex-wrap justify-center sm:justify-start">
-            <button className="p-[3px] relative m-2">
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-emerald-400 rounded-lg" />
-              <div className="px-8 py-3 bg-black rounded-[6px] relative group transition duration-200 text-white hover:bg-transparent">
-                Register Now
-              </div>
-            </button>
-          </div>
+              <button className="p-[3px] relative m-2">
+              <Link href="https://forms.gle/HFBQxAJiFgU5KcNE9" target="_blank">
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-emerald-400 rounded-lg" />
+                <div className="px-8 py-3 bg-black rounded-[6px] relative group transition duration-200 text-white hover:bg-transparent">
+                  Register Now
+                </div>
+              </Link>
+              </button>
+            </div>
 
           <div className="flex flex-wrap justify-center sm:justify-start">
             <button className="p-[3px] relative m-2">
+            <Link href="https://www.linkedin.com/company/programming-league-national/" target="_blank">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-emerald-400 rounded-lg" />
               <div className="p-2 bg-black rounded-[6px] relative group transition duration-200 text-white hover:bg-transparent">
                 <FaLinkedin className="w-8 h-8" />
               </div>
+            </Link>
             </button>
             <button className="p-[3px] relative m-2">
+            <Link href="https://www.tiktok.com/@pln_2024?_t=8lBvLYRKxlg&_r=1" target="_blank">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-emerald-400 rounded-lg" />
               <div className="p-2 bg-black rounded-[6px] relative group transition duration-200 text-white hover:bg-transparent">
                 <FaTiktok className="w-8 h-8" />
               </div>
+            </Link>
             </button>
             <button className="p-[3px] relative m-2">
+            <Link href="https://www.instagram.com/programmingleague?igsh=MTF6ZzUzYzZtZTc1ZQ==" target="_blank">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-emerald-400 rounded-lg" />
               <div className="p-2 bg-black rounded-[6px] relative group transition duration-200 text-white hover:bg-transparent">
                 <FaInstagram className="w-8 h-8" />
               </div>
+            </Link>
             </button>
           </div>
         </div>
