@@ -3,7 +3,7 @@ import { EvervaultCardDemo } from '../EvervaultCardDemo';
 
 const Rules = () => {
     return (
-        <div className="grid md:grid-cols-4 grid-cols-2 gap-5 w-full">
+        <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5 w-full">
             <div className="min-w-0">
                 <EvervaultCardDemo
                     cardText="Team Composition"
