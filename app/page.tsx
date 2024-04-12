@@ -25,7 +25,7 @@ export default function Home() {
         <h1 className="text-3xl font-bold underline text-center">Media Collaborator</h1>
       </div>
 
-      <div id="announcements" className="section h-screen bg-black box-border pt-10 relative">
+      <div id="announcements" className="section h-auto bg-black box-border pt-10 relative">
         <h1 className="text-3xl font-bold underline text-center">Announcements</h1>
         <NextJsCarousel />
       </div>
