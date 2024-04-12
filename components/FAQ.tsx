@@ -5,6 +5,8 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 
+// updated by Ruben
+
 export function FAQ() {
   return (
     <Accordion type="single" collapsible className="w-full text-white">
