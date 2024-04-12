@@ -16,13 +16,10 @@ export default function Home() {
         <SpotlightPreview />
       </div>
 
-      <div id="overview" className="section h-auto min-h-screen bg-black box-border pt-12">
+      <div id="overview" className="section h-auto bg-black box-border pt-12">
         <h1 className="text-3xl font-bold underline text-center">Timeline</h1>
         <Image src={"/timeline.png"} alt="Timeline" width={1800} height={50}/>
         <br/>
-        <h1 className="text-3xl font-bold underline text-center">Sponsorships</h1>
-        <br/>
-        <h1 className="text-3xl font-bold underline text-center">Media Collaborator</h1>
       </div>
 
       <div id="announcements" className="section h-auto bg-black box-border pt-10 relative">
