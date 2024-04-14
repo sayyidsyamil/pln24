@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { EvervaultCard, Icon } from "@/components/ui/evervault-card";
-import { Drawer, DrawerTrigger, DrawerContent, DrawerHeader, DrawerTitle, DrawerDescription, DrawerFooter, DrawerClose } from "@/components/ui/drawer";
 import {
     Dialog,
     DialogContent,
@@ -13,7 +11,7 @@ import {
 import { EvervaultCardDemo } from "./EvervaultCardDemo";
 
 
-export function DrawerCard({ cardText, drawerDescription }) {
+export function DrawerCard({ cardText, drawerDescription }: { cardText: string; drawerDescription: any }) {
     const [open, setOpen] = useState(false);
   
     const handleCardClick = () => {
