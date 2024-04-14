@@ -44,15 +44,13 @@ export function NavBar() {
           <a href="#announcements" className="text-sm font-medium leading-none" onClick={handleNavLinkClick}>
             Announcements
           </a>
-          <a href="#faq" className="text-sm font-medium leading-none" onClick={handleNavLinkClick}>
-            FAQ
-          </a>
           <a href="#rules" className="text-sm font-medium leading-none" onClick={handleNavLinkClick}>
             Rules
           </a>
-          <a href="#results" className="text-sm font-medium leading-none pr-10" onClick={handleNavLinkClick}>
-            Results
+          <a href="#faq" className="text-sm font-medium leading-none" onClick={handleNavLinkClick}>
+            FAQ
           </a>
+          
         </nav>
       </div>
     </div>  

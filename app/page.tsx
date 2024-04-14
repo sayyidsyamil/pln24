@@ -27,17 +27,18 @@ export default function Home() {
         <NextJsCarousel />
       </div>
 
+      <div id="rules" className="section h-auto min-h-screen bg-black box-border pt-12 pb-10">
+        <h1 className="text-3xl font-bold underline text-center">Rules</h1>
+        <br/><br/>
+        <Rules />
+      </div>
 
       <div id="faq" className="section h-auto min-h-screen bg-black box-border pt-12">
         <h1 className="text-3xl font-bold underline text-center">FAQs</h1>
         <FAQ />
       </div>
 
-      <div id="rules" className="section h-auto min-h-screen bg-black box-border pt-12 pb-10">
-        <h1 className="text-3xl font-bold underline text-center">Rules</h1>
-        <br/><br/>
-        <Rules />
-      </div>
+      
 
 
       <div className="section h-auto bg-black box-border pt-12 pb-10">

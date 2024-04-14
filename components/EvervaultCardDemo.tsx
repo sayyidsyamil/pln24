@@ -5,23 +5,26 @@ import { EvervaultCard, Icon } from "@/components/ui/evervault-card";
 interface EvervaultCardDemoProps {
   cardText: string;
   hoverText: string;
+  onClick: () => void;
 }
 
 // Use the interface for type checking
-export function EvervaultCardDemo({ cardText, hoverText }: EvervaultCardDemoProps) {
+export function EvervaultCardDemo({ cardText, hoverText, onClick }: EvervaultCardDemoProps) {
   return (
-    <div className="border border-white/[0.2] flex flex-col items-start max-w-64 sm:max-w-80 mx-auto p-4 relative h-[30rem] ">
-      <Icon className="absolute h-6 w-6 -top-3 -left-3 text-white " />
+    <div className="border border-white/[0.2] rounded-lg flex flex-col items-start w-full mx-auto p-4 relative h-auto ">
+      {/* <Icon className="absolute h-6 w-6 -top-3 -left-3 text-white " />
       <Icon className="absolute h-6 w-6 -bottom-3 -left-3 text-white " />
       <Icon className="absolute h-6 w-6 -top-3 -right-3 text-white " />
-      <Icon className="absolute h-6 w-6 -bottom-3 -right-3 text-white " />
+      <Icon className="absolute h-6 w-6 -bottom-3 -right-3 text-white " /> */}
 
-      <EvervaultCard text={cardText} />
+      <div onClick={onClick} className="cursor-pointer w-full">
+        <EvervaultCard text={cardText} />
+      </div>
 
-      <h2 className="text-whitemt-4 text-sm font-light">
+      <h2 className="text-white mt-4 text-sm font-light ">
         {hoverText}
       </h2>
-      <p className="text-sm border font-light border-white/[0.2] rounded-full mt-4 text-white px-2 py-0.5">
+      <p className="text-sm border font-light border-white/[0.2] rounded-full mt-4 text-white px-2 py-0.5 ">
         Hover Over
       </p>
     </div>
