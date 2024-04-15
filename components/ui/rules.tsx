@@ -171,6 +171,34 @@ const Rules = () => {
                 }
             />
 
+           <DrawerCard
+    cardText={"Preliminary Round"}
+    drawerDescription={
+        <div className='text-left'>
+            <ol>
+                <li>1. Teams must register beforehand via a Google Form distributed by PLN 2024 Officials.</li>
+                <li>2. The preliminary round will take place on 11th May 2024 (Saturday) on the online platform Codeforces.</li>
+                <li>3. All team members are required to attend on the contest day. No substitution of team members is allowed.</li>
+                <li>4. All teams should be registered within the Google Form by their team name and usernames. Ensure that each member joins using the correct username and team names.</li>
+                <li>5. Communication between groups or any form of violence in the competition is strictly prohibited. This includes, but is not limited to:
+                    <ul>
+                        <li>1. Using ChatGPT, Copilot, or any other LLM platform.</li>
+                        <li>2. Copying codes from any internet platform.</li>
+                        <li>3. Using extra illegal file operations.</li>
+                        <li>4. Attempting to penetrate or exploit the system in code.</li>
+                    </ul>
+                </li>
+                <li>6. This round will last for two (2) hours with a total of five (5) questions to be tackled.</li>
+                <li>7. Participants are not allowed to share questions or discuss them over any online public platform.</li>
+                <li>8. The decisions of the judges are final.</li>
+            </ol>
+            <br />
+            <p><strong>Organizer reserves the rights to amend all the rules and regulations and terms without prior notice.</strong></p>
+        </div>
+    }
+/>
+
+
 
 
 
