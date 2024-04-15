@@ -182,10 +182,10 @@ const Rules = () => {
                 <li>4. All teams should be registered within the Google Form by their team name and usernames. Ensure that each member joins using the correct username and team names.</li>
                 <li>5. Communication between groups or any form of violence in the competition is strictly prohibited. This includes, but is not limited to:
                     <ul>
-                        <li>1. Using ChatGPT, Copilot, or any other LLM platform.</li>
-                        <li>2. Copying codes from any internet platform.</li>
-                        <li>3. Using extra illegal file operations.</li>
-                        <li>4. Attempting to penetrate or exploit the system in code.</li>
+                        <li> - Using ChatGPT, Copilot, or any other LLM platform.</li>
+                        <li> - Copying codes from any internet platform.</li>
+                        <li> - Using extra illegal file operations.</li>
+                        <li> - Attempting to penetrate or exploit the system in code.</li>
                     </ul>
                 </li>
                 <li>6. This round will last for two (2) hours with a total of five (5) questions to be tackled.</li>
