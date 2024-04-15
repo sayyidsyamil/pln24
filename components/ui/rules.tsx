@@ -28,7 +28,7 @@ const Rules = () => {
                 drawerDescription={
                     <div className='text-left'>
                         <ol>
-                            <li>1. Only the selected top ten (10) teams from the preliminary round will make it to this round. Should there be any withdrawal of teams from the top ten, teams with lower rankings will be offered the chance to advance to the final round.</li>
+                            <li>1. Only the selected top twenty (20) teams from the preliminary round will make it to this round. Should there be any withdrawal of teams from the top ten, teams with lower rankings will be offered the chance to advance to the final round.</li>
                             <li>2. The final round is scheduled to be held on 18th May 2024 (Saturday) at the Faculty of Computer Science and Information Technology, Universiti Malaya.</li>
                             <li>3. All team members are required to attend on the contest day. No substitution of team members is allowed.</li>
                             <li>4. Only team member(s) who show up physically in the competition are eligible to compete in the final round. Team members are not allowed to communicate with their absent member(s) via any platforms.</li>
@@ -55,7 +55,7 @@ const Rules = () => {
                 drawerDescription={
                     <div className='text-left'>
                         <ol>
-                            <li>1. Only the selected top twenty (20) teams from the preliminary round will make it to this round. Should there be any withdrawal of teams from the top eight, teams with lower rankings will be offered the chance to advance to the final round.</li>
+                            <li>1. Only the selected top ten (10) teams from the preliminary round will make it to this round. Should there be any withdrawal of teams from the top eight, teams with lower rankings will be offered the chance to advance to the final round.</li>
                             <li>2. The final round (closed category) is scheduled to be held physically on 18th May 2024 (Saturday) at the Faculty of Computer Science and Information Technology, University Malaya. In the case of any emergency issues on Codeforces, we would shift the contest to HackerRank. The exact timing will be announced.</li>
                             <li>3. This round will last for four (4) hours with a total of eight (8) questions to be tackled.</li>
                             <li>4. Teams are required to join the contest held on Codeforces with the username and team name registered during registration.</li>
