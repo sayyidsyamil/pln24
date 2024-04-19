@@ -30,7 +30,7 @@ export function FAQ() {
       <AccordionItem value="item-3">
         <AccordionTrigger>Is there any registration fee?</AccordionTrigger>
         <AccordionContent>
-          Yes. Participants are required to pay RM10 per team as a commitment fee.
+          Yes. Participants are required to pay RM10 per team as a commitment fee. It's important to note that this RM10 fee will be fully refunded to participants.
         </AccordionContent>
       </AccordionItem>
 
