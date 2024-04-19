@@ -38,7 +38,7 @@ export function FAQ() {
         <AccordionTrigger>Can First-Year University Malaya Students enter the open category?</AccordionTrigger>
         <AccordionContent>
           You may enter the open category, however we encourage you to enter the closed category instead as this category
-          is made to accommodate your experience and knowdledge on fundamentals of programming.
+          is made to accommodate your experience and knowledge on fundamentals of programming.
         </AccordionContent>
       </AccordionItem>
 
