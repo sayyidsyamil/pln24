@@ -8,7 +8,7 @@ const NextJsCarousel = () => {
     <div className='flex justify-center items-center text-center'>
       <Carousel className='max-w-screen-lg w-full overflow-hidden'>
         <div className="aspect-video bg-black">
-          <Image src="/announcement4.jpg" alt="image1" width={1980} height={1080} className="w-full h-full object-contain" />
+          <Image src="/announcement5.jpg" alt="image1" width={1980} height={1080} className="w-full h-full object-contain" />
         </div>
         <div className="aspect-video bg-black">
           <Image src="/announcement3.png" alt="image1" width={1980} height={1080} className="w-full h-full object-contain" />
