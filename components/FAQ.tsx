@@ -149,7 +149,7 @@ export function FAQ() {
         <AccordionTrigger>How many rounds are there in total?</AccordionTrigger>
         <AccordionContent>
         Both open and closed categories will have two rounds - the preliminary and the final round. 
-        The top twenty-five(25) teams from Open Category and top eight(8) teams from Closed Category of the preliminary round will proceed to the final round.
+        The top twenty(20) teams from Open Category and top ten(10) teams from Closed Category of the preliminary round will proceed to the final round.
         </AccordionContent>
       </AccordionItem>
 
