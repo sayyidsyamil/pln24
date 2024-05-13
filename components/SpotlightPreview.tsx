@@ -8,7 +8,7 @@ import Link from "next/link";
 //hi
 
 export function SpotlightPreview() {
-  const eventDate = new Date('2024-05-10T23:59:59'); // Replace with your event date
+  const eventDate = new Date('2024-05-17T23:59:59'); // Replace with your event date
   const [timeLeft, setTimeLeft] = useState(0);
 
   useEffect(() => {
@@ -37,7 +37,7 @@ export function SpotlightPreview() {
         <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
           Programming League <br /> National 2024
         </h1>
-        <p className="mt-10 font-normal text-base text-neutral-300 max-w-xl text-center mx-auto">
+        <p className="mt-10 font-normal text-base text-neutral-300 max-w-xl text-center mx-auto hidden sm:block">
           Programming League National is an annual competitive programming contest organized by the
           Computer Society of Universiti Malaya (PEKOM) where teams of 3 compete to solve algorithmic problems
           in a given time.
@@ -48,10 +48,10 @@ export function SpotlightPreview() {
             {days > 0 && `${days} day${days > 1 ? 's' : ''} `}
             {hours > 0 && `${hours} hour${hours > 1 ? 's' : ''} `}
             {minutes > 0 && `${minutes} minute${minutes > 1 ? 's' : ''} `}
-            {seconds > 0 && `${seconds} second${seconds > 1 ? 's' : ''} `}
+            {seconds > 0 && `${seconds} second${seconds > 1 ? 's' : ''} `} until final day!
           </div>
         ) : (
-          <h1 className="text-l text-center">It is the day! </h1>
+          <h1 className="text-l text-center">It is the final day! </h1>
         )}
         <div className="flex flex-col items-center justify-center md:flex-row">
           <div className="flex flex-wrap justify-center sm:justify-start">

@@ -24,9 +24,9 @@ export function EvervaultCardDemo({ cardText, hoverText, onClick }: EvervaultCar
       <h2 className="text-white mt-4 text-sm font-light ">
         {hoverText}
       </h2>
-      <p className="text-sm border font-light border-white/[0.2] rounded-full mt-4 text-white px-2 py-0.5 ">
+      {/* <p className="text-sm border font-light border-white/[0.2] rounded-full mt-4 text-white px-2 py-0.5 ">
         Hover Over
-      </p>
+      </p> */}
     </div>
   );
 }

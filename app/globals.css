@@ -74,3 +74,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* tailwind.config.css or your custom CSS file */
+/* tailwind.config.css or your custom CSS file */
+@layer utilities {
+  .gradient-border {
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+/* from-blue-700 to-green-500   */
