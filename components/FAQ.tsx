@@ -160,7 +160,7 @@ export function FAQ() {
         <AccordionContent>
         The competition is a team contest.
         Participants will receive a pdf file containing the competition questions.
-        There will be 5 questions for the online preliminary round (2 hours) and 10 questions for the final round (5 hours), 
+        There will be 5 questions for the online preliminary round (2 hours) and 8 questions for the final round (4 hours), 
         which are of different difficulty levels and mostly algorithmic in nature.
         </AccordionContent>
       </AccordionItem>
