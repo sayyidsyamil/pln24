@@ -21,7 +21,7 @@ export default function Home() {
       <div id="overview" className="section h-auto bg-black box-border pt-12">
         <h1 className="text-3xl font-bold underline text-center">Timeline</h1>
         <Image src={"/timeline.png"} alt="Timeline" width={1800} height={50} />
-        <br />
+        <br /> <br />  <br />
         <h1 className="text-3xl font-bold underline text-center">Sponsor</h1>
         <div className="flex items-center justify-center">
           <Link href="https://www.linkedin.com/company/global-intelligence-sdn-bhd/" target="_blank">
@@ -29,7 +29,7 @@ export default function Home() {
           </Link>
 
         </div>
-        <br />
+        <br />  <br />  <br />
         <h1 className="text-3xl font-bold underline text-center">Media Collaborator</h1>
         <InfiniteMovingCardsDemo />
 

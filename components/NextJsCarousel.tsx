@@ -6,17 +6,17 @@ import Image from 'next/image';
 const NextJsCarousel = () => {
   return (
     <div className='flex justify-center items-center text-center'>
-      <Carousel className='max-w-screen-lg w-full overflow-hidden'>
-        <div className="aspect-video bg-black">
+      <Carousel className='max-w-screen-2xl w-full overflow-hidden'>
+        <div className="sm:aspect-video aspect-square bg-black">
           <Image src="/announcement5.jpg" alt="image1" width={1980} height={1080} className="w-full h-full object-contain" />
         </div>
-        <div className="aspect-video bg-black">
+        <div className="sm:aspect-video aspect-square bg-black">
           <Image src="/announcement3.png" alt="image1" width={1980} height={1080} className="w-full h-full object-contain" />
         </div>
-        <div className="aspect-video bg-black">
+        <div className="sm:aspect-video aspect-square bg-black">
           <Image src="/announcement1.PNG" alt="image1" width={1980} height={1080} className="w-full h-full object-contain" />
         </div>
-        <div className="aspect-video bg-black">
+        <div className="sm:aspect-video aspect-square bg-black">
           <Image src="/announcement2.PNG" alt="image2" width={1980} height={1080} className="w-full h-full object-contain" />
         </div>
       </Carousel >
