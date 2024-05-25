@@ -43,16 +43,11 @@ export function SpotlightPreview() {
           in a given time.
         </p>
         <br />
-        {timeLeft > 0 ? (
-          <div className="text-l text-center">
-            {days > 0 && `${days} day${days > 1 ? 's' : ''} `}
-            {hours > 0 && `${hours} hour${hours > 1 ? 's' : ''} `}
-            {minutes > 0 && `${minutes} minute${minutes > 1 ? 's' : ''} `}
-            {seconds > 0 && `${seconds} second${seconds > 1 ? 's' : ''} `} until final day!
-          </div>
-        ) : (
-          <h1 className="text-l text-center">It is the final day! </h1>
-        )}
+
+
+          <h1 className="text-l text-center">Competition ended. Thank you for participating in Programming League National 2024! </h1>
+
+        
         <div className="flex flex-col items-center justify-center md:flex-row">
           <div className="flex flex-wrap justify-center sm:justify-start">
               <button className="p-[3px] relative m-2">

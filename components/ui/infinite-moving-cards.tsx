@@ -83,14 +83,14 @@ export const InfiniteMovingCards = ({
                 {items.map((item, idx) => (
                     <li
 
-                        className="w-[200px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-white/[0.2] px-4 py-2 "
+                        className="w-[10em] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-white/[0.2] px-4 py-2 "
                         style={{
                             background:
                                 "linear-gradient(180deg, var(--slate-800), var(--slate-900)",
                         }}
                         key={idx}
                     >
-                        <div className="h-[200px] w-full relative">
+                        <div className="h-[10em] w-full relative">
                             {/* Use Next.js Image component to display the image */}
                             <Image
                                 src={item.src} // Use item.src as the source of the image

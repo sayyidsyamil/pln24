@@ -1,6 +1,7 @@
 "use client"
 import { FAQ } from "@/components/FAQ";
 import { SpotlightPreview } from "@/components/SpotlightPreview";
+import WinnerSection from "@/components/WinnerSection";
 import Image from "next/image";
 import React, { useRef } from 'react';
 import NextJsCarousel from "@/components/NextJsCarousel";
@@ -21,11 +22,15 @@ export default function Home() {
       <div id="overview" className="section h-auto bg-black box-border pt-12">
         <h1 className="text-3xl font-bold underline text-center">Timeline</h1>
         <Image src={"/timeline.png"} alt="Timeline" width={1800} height={50} />
+        
         <br /> <br />  <br />
         <h1 className="text-3xl font-bold underline text-center">Sponsor</h1>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center  gap-5">
           <Link href="https://www.linkedin.com/company/global-intelligence-sdn-bhd/" target="_blank">
-            <Image src="/sponsor-logo.png" alt="Sponsor" width={180} height={50} className="image rounded-md" />
+            <Image src="/sponsored-logo.png" alt="Sponsor" width={300} height={300} className="image rounded-md" />
+          </Link>
+          <Link href="https://embeddedllm.com/" target="_blank">
+            <Image src="/sponsored-logo2.svg" alt="Sponsor" width={300} height={300} className="image rounded-md" />
           </Link>
 
         </div>
@@ -34,6 +39,13 @@ export default function Home() {
         <InfiniteMovingCardsDemo />
 
       </div>
+
+      <div id="winners" className="section h-auto bg-black box-border pt-10 relative">
+        <h1 className="text-3xl font-bold underline text-center">Winners</h1>
+        <WinnerSection />
+      </div>
+
+      
 
       <div id="announcements" className="section h-auto bg-black box-border pt-10 relative">
         <h1 className="text-3xl font-bold underline text-center">Announcements</h1>
