@@ -45,8 +45,7 @@ export default function Home() {
         <WinnerSection />
       </div>
 
-      
-
+    
       <div id="announcements" className="section h-auto bg-black box-border pt-10 relative">
         <h1 className="text-3xl font-bold underline text-center">Announcements</h1>
         <NextJsCarousel />
