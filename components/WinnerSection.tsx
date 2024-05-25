@@ -7,8 +7,8 @@ const WinnerSection = () => {
             <h1 className="text-xl font-semibold text-center my-4">Open Category</h1>
             <div className="relative w-full h-64">
                 <Image
-                    src="/open.jpg"
-                    alt="Open Category Winner"  
+                    src="/winner/open.jpg"
+                    alt="Open Category Winner"
                     layout="fill"
                     objectFit="contain"
                 />
@@ -16,7 +16,7 @@ const WinnerSection = () => {
             <h1 className="text-xl font-semibold text-center my-4">Closed Category</h1>
             <div className="relative w-full h-64">
                 <Image
-                    src="/close.jpg"
+                    src="/winner/close.jpg"
                     alt="Closed Category Winner"
                     layout="fill"
                     objectFit="contain"
